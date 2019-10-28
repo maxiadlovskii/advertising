@@ -10,7 +10,7 @@ const dispatcher = async ({
 
         const data = await actionFunc(actionParams);
         await onSuccess(data);
-        setTimeout( ()=>statusChanger(fetchingStatuses.SUCCESS), 500);
+        setTimeout( ()=>statusChanger(fetchingStatuses.SUCCESS), 500); // just for loader showing
     } catch (e) {
         statusChanger(fetchingStatuses.FAILED);
         return e

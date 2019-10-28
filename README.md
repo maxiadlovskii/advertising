@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## What would I add
+
+In real application it would be good to send some filter values and get data from BE. 
+Also I would implement getting data for Select Options from BE using some pagination on scrolling and debounce for typing on filtering options.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
